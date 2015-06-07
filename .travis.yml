@@ -1,0 +1,16 @@
+language: cpp
+
+before_install:
+  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+  - sudo sh -c 'sed s/precise/trusty/g /etc/apt/sources.list > /etc/apt/sources.list.d/trusty.list'
+  - sudo apt-get update -qq
+
+install:
+  - sudo apt-get install -qq libmysqlclient-dev
+  
+before_script:
+  - mysql -e 'create database test_db;'
+
+script:
+  - sh main_sql.sh
+  - sh custom_sql.sh
