@@ -269,7 +269,7 @@ INSERT INTO `item_armor` VALUES (28306,'outrider_greaves',99,117,6593,5,0,0,256,
 INSERT INTO `item_armor` VALUES (28307,'espial_socks',99,117,3662710,23,0,0,256,0);
 INSERT INTO `item_armor` VALUES (28308,'wayfarer_clogs',99,117,4179646,20,0,0,256,0);
 INSERT INTO `item_armor` VALUES (28309,'temachtiani_boots',99,105,4194303,102,0,0,256,0);
-INSERT INTO `item_armor` VALUES (28314,'aetosaur_ledelsens',99,114,2473969,6,0,0,256,0,);
+INSERT INTO `item_armor` VALUES (28314,'aetosaur_ledelsens',99,114,2473969,6,0,0,256,0);
 INSERT INTO `item_armor` VALUES (28315,'aetosaur_ledelsens_+1',99,115,2473969,6,0,0,256,0);
 INSERT INTO `item_armor` VALUES (28316,'shabti_sabatons',99,0,193,22,0,0,256,0);
 INSERT INTO `item_armor` VALUES (28317,'shabti_sabatons_+1',99,0,193,22,0,0,256,0);
