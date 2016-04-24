@@ -161,8 +161,8 @@ REPLACE INTO `item_basic` VALUES (21203,0,'astralwatcher','astralwatcher',1,2080
 INSERT INTO `item_basic` VALUES (21217,0,'blurred_bow','blurred_bow',1,2048,13,0,1);
 INSERT INTO `item_basic` VALUES (21218,0,'blurred_bow_+1','blurred_bow_+1',1,2048,13,0,1);
 INSERT INTO `item_basic` VALUES (21231,0,'eminent_bow','eminent_bow',1,63552,13,1,0);
-INSERT INTO `item_basic` VALUES (21239,0,'echidnas_bow','echidnas_bow',1,2080,13,1,0);
-INSERT INTO `item_basic` VALUES (21240,0,'echidnas_bow_+1','echidnas_bow_+1',1,2080,13,1,0);
+REPLACE INTO `item_basic` VALUES (21239,0,'echidnas_bow','echidnas_bow',1,2080,13,1,0);
+REPLACE INTO `item_basic` VALUES (21240,0,'echidnas_bow_+1','echidnas_bow_+1',1,2080,13,1,0);
 INSERT INTO `item_basic` VALUES (21249,0,'iqonde_crossbow','iqonde_crossbow',1,2048,13,0,1);
 INSERT INTO `item_basic` VALUES (21250,0,'iqonde_crossbow_+1','iqonde_cross._+1',1,2048,13,0,1);
 INSERT INTO `item_basic` VALUES (21251,0,'eminent_crossbow','eminent_crossbow',13,63552,8,1,0);
