@@ -1825,10 +1825,6 @@ INSERT INTO `item_mods` VALUES (28607,5,30);
 INSERT INTO `item_mods` VALUES (28621, 274, 6); --  Cure Potency +6%
 INSERT INTO `item_mods` VALUES (28621, 311, 6); -- Magic Damage
 
-INSERT INTO `item_mods` VALUES (28644,1,19);
-INSERT INTO `item_mods` VALUES (28644,30,10);
-INSERT INTO `item_mods` VALUES (28645,1,20);
-INSERT INTO `item_mods` VALUES (28645,30,11);
 INSERT INTO `item_mods` VALUES (28664,1,60);
 INSERT INTO `item_mods` VALUES (28664,10,10);
 INSERT INTO `item_mods` VALUES (28664,161,-7);
