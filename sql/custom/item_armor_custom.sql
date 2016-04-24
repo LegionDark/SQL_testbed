@@ -71,7 +71,7 @@ INSERT INTO `item_armor` VALUES (20896,'blurred_scythe',99,119,385,194,0,0,1,0);
 INSERT INTO `item_armor` VALUES (20897,'blurred_scythe_+1',99,119,385,194,0,0,1,0);
 INSERT INTO `item_armor` VALUES (20908,'eminent_sickle',99,117,128,393,0,0,1,0);
 REPLACE INTO `item_armor` VALUES (20919,'lacryma_sickle',99,117,128,366,0,0,1,0);
-INSERT INTO `item_armor` VALUES (20920,'lacryma_sickle_+1',99,118,128,366,0,0,1,0);
+REPLACE INTO `item_armor` VALUES (20920,'lacryma_sickle_+1',99,118,128,366,0,0,1,0);
 INSERT INTO `item_armor` VALUES (20940,'blurred_lance',99,119,10241,461,0,0,1,0);
 INSERT INTO `item_armor` VALUES (20941,'blurred_lance_+1',99,119,10241,461,0,0,1,0);
 INSERT INTO `item_armor` VALUES (20950,'terebrokath',99,117,8192,210,0,0,1,0);
