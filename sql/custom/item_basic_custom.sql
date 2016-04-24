@@ -156,8 +156,8 @@ INSERT INTO `item_basic` VALUES (21182,0,'eminent_staff','eminent_staff',1,63552
 INSERT INTO `item_basic` VALUES (21183,0,'eminent_pole','eminent_pole',1,63552,12,1,0);
 REPLACE INTO `item_basic` VALUES (21200,0,'atinian_staff','atinian_staff',1,2080,12,1,0);
 REPLACE INTO `item_basic` VALUES (21201,0,'atinian_staff_+1','atinian_staff_+1',1,2080,12,1,0);
-INSERT INTO `item_basic` VALUES (21202,0,'balsam_staff','balsam_staff',1,2080,12,1,0);
-INSERT INTO `item_basic` VALUES (21203,0,'astralwatcher','astralwatcher',1,2080,12,1,0);
+REPLACE INTO `item_basic` VALUES (21202,0,'balsam_staff','balsam_staff',1,2080,12,1,0);
+REPLACE INTO `item_basic` VALUES (21203,0,'astralwatcher','astralwatcher',1,2080,12,1,0);
 INSERT INTO `item_basic` VALUES (21217,0,'blurred_bow','blurred_bow',1,2048,13,0,1);
 INSERT INTO `item_basic` VALUES (21218,0,'blurred_bow_+1','blurred_bow_+1',1,2048,13,0,1);
 INSERT INTO `item_basic` VALUES (21231,0,'eminent_bow','eminent_bow',1,63552,13,1,0);
