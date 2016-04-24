@@ -51,8 +51,8 @@ REPLACE INTO `item_weapon` VALUES (20875,'razorfury_+1',6,0,228,228,177,2,1,489,
 INSERT INTO `item_weapon` VALUES (20896,'blurred_scythe',7,0,242,242,188,2,1,528,274,0);
 INSERT INTO `item_weapon` VALUES (20897,'blurred_scythe_+1',7,0,242,242,188,2,1,513,233,0);
 INSERT INTO `item_weapon` VALUES (20908,'eminent_sickle',7,0,215,215,167,2,1,501,232,0);
-INSERT INTO `item_weapon` VALUES (20919,'lacryma_sickle',7,0,220,215,167,2,1,528,271,0);
-INSERT INTO `item_weapon` VALUES (20920,'lacryma_sickle_+1',7,0,233,228,177,2,1,513,272,0);
+REPLACE INTO `item_weapon` VALUES (20919,'lacryma_sickle',7,0,220,215,167,2,1,528,271,0);
+REPLACE INTO `item_weapon` VALUES (20920,'lacryma_sickle_+1',7,0,233,228,177,2,1,513,272,0);
 INSERT INTO `item_weapon` VALUES (20940,'blurred_lance',8,0,242,242,188,1,1,507,262,0);
 INSERT INTO `item_weapon` VALUES (20941,'blurred_lance_+1',8,0,242,242,188,1,1,492,224,0);
 INSERT INTO `item_weapon` VALUES (20950,'terebrokath',8,0,215,215,167,1,1,492,252,0);
