@@ -80,8 +80,6 @@ INSERT INTO `item_armor` VALUES (20984,'kujaku',99,119,4096,367,0,0,3,0);
 INSERT INTO `item_armor` VALUES (20985,'kujaku_+1',99,119,4096,367,0,0,3,0);
 INSERT INTO `item_armor` VALUES (20998,'kaitsuburi',99,117,4096,394,0,0,3,0);
 
-INSERT INTO `item_armor` VALUES (21202,'balsam_staff',99,117,16384,417,0,0,1,0);
-INSERT INTO `item_armor` VALUES (21203,'astralwatcher',99,118,16384,417,0,0,1,0);
 INSERT INTO `item_armor` VALUES (21032,'kunitsuna',99,119,2048,154,0,0,1,0);
 INSERT INTO `item_armor` VALUES (21033,'kunitsuna_+1',99,119,2048,154,0,0,1,0);
 INSERT INTO `item_armor` VALUES (21041,'sukezane',99,117,2048,144,0,0,1,0);
