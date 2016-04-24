@@ -46,8 +46,8 @@ INSERT INTO `item_weapon` VALUES (20817,'eminent_axe',5,0,215,215,167,2,1,288,14
 INSERT INTO `item_weapon` VALUES (20849,'blurred_cleaver',6,0,242,242,188,2,1,504,272,0);
 INSERT INTO `item_weapon` VALUES (20850,'blurred_cleaver_+1',6,0,242,242,188,2,1,489,231,0);
 INSERT INTO `item_weapon` VALUES (20865,'eminent_voulge',6,0,215,215,167,2,1,504,246,0);
-INSERT INTO `item_weapon` VALUES (20874,'razorfury',6,0,215,215,167,2,1,504,259,0);
-INSERT INTO `item_weapon` VALUES (20875,'razorfury_+1',6,0,228,228,177,2,1,489,260,0);
+REPLACE INTO `item_weapon` VALUES (20874,'razorfury',6,0,215,215,167,2,1,504,259,0);
+REPLACE INTO `item_weapon` VALUES (20875,'razorfury_+1',6,0,228,228,177,2,1,489,260,0);
 INSERT INTO `item_weapon` VALUES (20896,'blurred_scythe',7,0,242,242,188,2,1,528,274,0);
 INSERT INTO `item_weapon` VALUES (20897,'blurred_scythe_+1',7,0,242,242,188,2,1,513,233,0);
 INSERT INTO `item_weapon` VALUES (20908,'eminent_sickle',7,0,215,215,167,2,1,501,232,0);
