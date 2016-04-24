@@ -125,8 +125,8 @@ INSERT INTO `item_basic` VALUES (20817,0,'eminent_axe','eminent_axe',1,63552,5,1
 INSERT INTO `item_basic` VALUES (20849,0,'blurred_cleaver','blurred_cleaver',1,2048,6,0,1);
 INSERT INTO `item_basic` VALUES (20850,0,'blurred_cleaver_+1','blurred_cleaver_+1',1,2048,6,0,1);
 INSERT INTO `item_basic` VALUES (20865,0,'eminent_voulge','eminent_voulge',1,63552,6,1,0);
-INSERT INTO `item_basic` VALUES (20874,0,'razorfury','razorfury',1,2080,6,1,0);
-INSERT INTO `item_basic` VALUES (20875,0,'razorfury_+1','razorfury_+1',1,2080,6,1,0);
+REPLACE INTO `item_basic` VALUES (20874,0,'razorfury','razorfury',1,2080,6,1,0);
+REPLACE INTO `item_basic` VALUES (20875,0,'razorfury_+1','razorfury_+1',1,2080,6,1,0);
 INSERT INTO `item_basic` VALUES (20896,0,'blurred_scythe','blurred_scythe',1,2048,7,0,1);
 INSERT INTO `item_basic` VALUES (20897,0,'blurred_scythe_+1','blurred_scythe_+1',1,2048,7,0,1);
 INSERT INTO `item_basic` VALUES (20919,0,'lacryma_sickle','lacryma_sickle',1,2080,7,1,0);
