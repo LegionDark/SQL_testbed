@@ -138,8 +138,8 @@ INSERT INTO `item_basic` VALUES (20951,0,'terebrokath_+1','terebrokath_+1',1,204
 INSERT INTO `item_basic` VALUES (20984,0,'kujaku','kujaku',1,2048,9,0,1);
 INSERT INTO `item_basic` VALUES (20985,0,'kujaku_+1','kujaku_+1',1,2048,9,0,1);
 
-INSERT INTO `item_basic` VALUES (21006,0,'pamun','pamun',1,2080,9,1,0);
-INSERT INTO `item_basic` VALUES (21007,0,'pamun_+1','pamun_+1',1,2080,9,1,0);
+REPLACE INTO `item_basic` VALUES (21006,0,'pamun','pamun',1,2080,9,1,0);
+REPLACE INTO `item_basic` VALUES (21007,0,'pamun_+1','pamun_+1',1,2080,9,1,0);
 INSERT INTO `item_basic` VALUES (21032,0,'kunitsuna','kunitsuna',1,2048,10,0,1);
 INSERT INTO `item_basic` VALUES (21033,0,'kunitsuna_+1','kunitsuna_+1',1,2048,10,0,1);
 INSERT INTO `item_basic` VALUES (21041,0,'sukezane','sukezane',1,2048,10,0,1);
