@@ -359,6 +359,6 @@ INSERT INTO `item_basic` VALUES (28601,0,'seshaw_cape','seshaw_cape',1,2080,26,1
 INSERT INTO `item_basic` VALUES (28602,0,'seshaw_cape_+1','seshaw_cape_+1',1,2080,26,1,0);
 INSERT INTO `item_basic` VALUES (28606,0,'aput_mantle','aput_mantle',1,2048,26,1,0);
 INSERT INTO `item_basic` VALUES (28607,0,'aput_mantle_+1','aput_mantle_+1',1,2048,26,1,0);
-INSERT INTO `item_basic` VALUES (28644,0,'ogapepo_cape','ogapepo_cape',1,2080,26,1,0);
-INSERT INTO `item_basic` VALUES (28645,0,'ogapepo_cape_+1','ogapepo_cape_+1',1,2080,26,1,0);
+REPLACE INTO `item_basic` VALUES (28644,0,'ogapepo_cape','ogapepo_cape',1,2080,26,1,0);
+REPLACE INTO `item_basic` VALUES (28645,0,'ogapepo_cape_+1','ogapepo_cape_+1',1,2080,26,1,0);
 INSERT INTO `item_basic` VALUES (28656,0,'eminent_shield','eminent_shield',1,63552,13,1,0);
