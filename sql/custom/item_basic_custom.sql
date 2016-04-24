@@ -167,8 +167,8 @@ INSERT INTO `item_basic` VALUES (21249,0,'iqonde_crossbow','iqonde_crossbow',1,2
 INSERT INTO `item_basic` VALUES (21250,0,'iqonde_crossbow_+1','iqonde_cross._+1',1,2048,13,0,1);
 INSERT INTO `item_basic` VALUES (21251,0,'eminent_crossbow','eminent_crossbow',13,63552,8,1,0);
 INSERT INTO `item_basic` VALUES (21281,0,'eminent_gun','eminent_gun',1,63552,13,1,0);
-INSERT INTO `item_basic` VALUES (21289,0,'donderbuss','donderbuss',1,2080,13,1,0);
-INSERT INTO `item_basic` VALUES (21290,0,'donderbuss_+1','donderbuss_+1',1,2080,13,1,0);
+REPLACE INTO `item_basic` VALUES (21289,0,'donderbuss','donderbuss',1,2080,13,1,0);
+REPLACE INTO `item_basic` VALUES (21290,0,'donderbuss_+1','donderbuss_+1',1,2080,13,1,0);
 REPLACE INTO `item_basic` VALUES (21350,0,'wingcutter_+1','wingcutter_+1',1,63568,0,1,0);
 INSERT INTO `item_basic` VALUES (21353,0,'happo_shuriken','happo_shuriken',99,2048,15,0,1);
 INSERT INTO `item_basic` VALUES (21354,0,'happo_shuriken_+1','happo_shuriken_+1',99,2048,15,0,1);
