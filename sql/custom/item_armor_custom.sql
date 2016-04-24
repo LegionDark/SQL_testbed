@@ -107,8 +107,8 @@ INSERT INTO `item_armor` VALUES (21249,'iqonde_crossbow',99,117,1024,52,0,0,4,0)
 INSERT INTO `item_armor` VALUES (21250,'iqonde_crossbow_+1',99,118,1024,52,0,0,4,0);
 INSERT INTO `item_armor` VALUES (21251,'eminent_crossbow',99,117,1185,53,0,0,4,0);
 INSERT INTO `item_armor` VALUES (21281,'eminent_gun',99,117,1024,58,0,0,4,0);
-INSERT INTO `item_armor` VALUES (21289,'donderbuss',99,117,66560,60,0,0,4,0);
-INSERT INTO `item_armor` VALUES (21290,'donderbuss_+1',99,118,66560,60,0,0,4,0);
+REPLACE INTO `item_armor` VALUES (21289,'donderbuss',99,117,66560,60,0,0,4,0);
+REPLACE INTO `item_armor` VALUES (21290,'donderbuss_+1',99,118,66560,60,0,0,4,0);
 REPLACE INTO `item_armor` VALUES (21345,'focal_orb',99,0,2473971,0,0,0,8,0);
 REPLACE INTO `item_armor` VALUES (21350,'wingcutter_+1',99,119,4128,24,0,0,8,0);
 INSERT INTO `item_armor` VALUES (21353,'happo_shuriken',99,117,4096,22,0,0,8,2);
