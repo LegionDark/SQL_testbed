@@ -94,8 +94,8 @@ INSERT INTO `item_armor` VALUES (21182,'eminent_staff',99,117,1590047,341,0,0,1,
 INSERT INTO `item_armor` VALUES (21183,'eminent_pole',99,117,16384,341,0,0,1,0);
 INSERT INTO `item_armor` VALUES (21192,'voay_staff',99,107,1598031,625,0,0,1,0);
 INSERT INTO `item_armor` VALUES (21193,'voay_staff_+1',99,109,1598031,625,0,0,1,0);
-INSERT INTO `item_armor` VALUES (21200,'atinian_staff',99,117,1572872,291,0,0,1,0);
-INSERT INTO `item_armor` VALUES (21201,'atinian_staff_+1',99,118,1572872,291,0,0,1,0);
+REPLACE INTO `item_armor` VALUES (21200,'atinian_staff',99,117,1572872,291,0,0,1,0);
+REPLACE INTO `item_armor` VALUES (21201,'atinian_staff_+1',99,118,1572872,291,0,0,1,0);
 REPLACE INTO `item_armor` VALUES (21202,'balsam_staff',99,117,16384,417,0,0,1,0);
 REPLACE INTO `item_armor` VALUES (21203,'astralwatcher',99,118,16384,417,0,0,1,0);
 INSERT INTO `item_armor` VALUES (21217,'blurred_bow',99,119,1024,50,0,0,4,0);
