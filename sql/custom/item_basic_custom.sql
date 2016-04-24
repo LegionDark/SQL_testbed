@@ -148,8 +148,8 @@ INSERT INTO `item_basic` VALUES (21044,0,'ichimonji-yofusa','ichimonji-yofusa',1
 INSERT INTO `item_basic` VALUES (21093,0,'blurred_rod','blurred_rod',1,2048,11,0,1);
 INSERT INTO `item_basic` VALUES (21094,0,'blurred_rod_+1','blurred_rod_+1',1,2048,11,0,1);
 INSERT INTO `item_basic` VALUES (21119,0,'eminent_wand','eminent_wand',1,63552,11,1,0);
-INSERT INTO `item_basic` VALUES (21129,0,'sharur','sharur',1,2080,11,1,0);
-INSERT INTO `item_basic` VALUES (21130,0,'sharur_+1','sharur_+1',1,2080,11,1,0);
+REPLACE INTO `item_basic` VALUES (21129,0,'sharur','sharur',1,2080,11,1,0);
+REPLACE INTO `item_basic` VALUES (21130,0,'sharur_+1','sharur_+1',1,2080,11,1,0);
 INSERT INTO `item_basic` VALUES (21157,0,'blurred_staff','blurred_staff',1,2048,12,0,1);
 INSERT INTO `item_basic` VALUES (21158,0,'blurred_staff_+1','blurred_staff_+1',1,2048,12,0,1);
 INSERT INTO `item_basic` VALUES (21182,0,'eminent_staff','eminent_staff',1,63552,12,1,0);
