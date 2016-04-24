@@ -324,6 +324,6 @@ INSERT INTO `item_armor` VALUES (28602,'seshaw_cape_+1',99,0,1753628,0,0,0,32768
 INSERT INTO `item_armor` VALUES (28606,'aput_mantle',99,0,2473969,0,0,0,32768,0);
 INSERT INTO `item_armor` VALUES (28607,'aput_mantle_+1',99,0,2473969,0,0,0,32768,0);
 REPLACE INTO `item_armor` VALUES (28641,'vespid_mantle',99,0,2473971,0,0,0,32768,0);
-INSERT INTO `item_armor` VALUES (28644,'ogapepo_cape',99,0,1753628,0,0,0,32768,0);
-INSERT INTO `item_armor` VALUES (28645,'ogapepo_cape_+1',99,0,1753628,0,0,0,32768,0);
+REPLACE INTO `item_armor` VALUES (28644,'ogapepo_cape',99,0,1753628,0,0,0,32768,0);
+REPLACE INTO `item_armor` VALUES (28645,'ogapepo_cape_+1',99,0,1753628,0,0,0,32768,0);
 INSERT INTO `item_armor` VALUES (28656,'eminent_shield',99,117,193,30,3,0,2,0);
