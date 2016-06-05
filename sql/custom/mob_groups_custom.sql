@@ -7,7 +7,7 @@
 -- REPLACE tells MySQL to delete the old line and insert the new one.
 -- Using the wrong 1 of these 2 commands will result in errors.
 -- ---------------------------------------------------------------------------
--- REPLACE INTO `mob_groups` VALUES (groupid,poolid,zoneid,respawntime,spawntype,dropid,HP,MP,minLevel,maxLevel,allegiance,roam_distance);
+-- REPLACE INTO `mob_groups` VALUES (groupid,poolid,zoneid,respawntime,spawntype,dropid,HP,MP,minLevel,maxLevel,allegiance;
 
 REPLACE INTO `mob_groups` VALUES (99,2083,4,14400,0,1788,20000,20000,105,107,0); -- Intulo
 
@@ -195,7 +195,7 @@ REPLACE INTO `mob_groups` VALUES (12966,4554,45,0,128,9710,110000,10000,113,116,
 REPLACE INTO `mob_groups` VALUES (12967,4555,45,0,128,9714,110000,25999,113,116,0); -- Glavoid Abyssea-Tharongi
 REPLACE INTO `mob_groups` VALUES (12968,4556,45,0,128,9718,110000,100000,113,116,0); -- Lacovie
 REPLACE INTO `mob_groups` VALUES (12969,4557,45,600,0,9712,60000,10000,113,116,0); -- Cuelebre
-REPLACE INTO `mob_groups` VALUES (12970,4558,45,900,0,4558,110000,10000,113,116,0); -- Mictlantecuhtli
+REPLACE INTO `mob_groups` VALUES (12970,4558,45,900,0,9732,110000,10000,113,116,0); -- Mictlantecuhtli
 REPLACE INTO `mob_groups` VALUES (12971,4559,45,600,0,9711,110000,10000,113,116,0); -- Chukwa
 REPLACE INTO `mob_groups` VALUES (12972,4560,45,600,0,9720,80000,20000,113,116,0); -- minhocao
 REPLACE INTO `mob_groups` VALUES (12973,4561,45,600,0,9708,60000,0,113,116,0); -- Adze Abyssea-Tharongi
@@ -506,7 +506,7 @@ REPLACE INTO `mob_groups` VALUES (6962,1244,132,60,0,888,10000,20999,106,110,0);
 REPLACE INTO `mob_groups` VALUES (6963,1301,132,60,0,932,10000,20000,106,110,0); -- Farfadet
 REPLACE INTO `mob_groups` VALUES (6964,1488,132,60,0,1097,10000,0,106,110,0); -- Geier
 REPLACE INTO `mob_groups` VALUES (6965,1548,132,60,0,1143,10000,20999,106,110,0); -- Gigadaphnia
-REPLACE INTO `mob_groups` VALUES (6966,1785,132,0,128,1539,10000,10000,106,110,0); -- Grandgousier
+REPLACE INTO `mob_groups` VALUES (6966,1785,132,0,128,1539,75000,75000,106,110,0); -- Grandgousier
 REPLACE INTO `mob_groups` VALUES (6967,1810,132,60,0,1582,10000,0,106,110,0); -- Great Wasp
 REPLACE INTO `mob_groups` VALUES (6968,1867,132,60,0,1619,10000,0,106,110,0); -- Hadal Gigas
 REPLACE INTO `mob_groups` VALUES (6969,1872,132,0,128,1621,110000,0,113,116,0); -- Hadhayosh
@@ -949,7 +949,7 @@ REPLACE INTO `mob_groups` VALUES (10647,722,253,60,0,527,10000,10000,121,125,0);
 REPLACE INTO `mob_groups` VALUES (10648,1206,253,60,0,587,10000,9000,121,125,0);
 REPLACE INTO `mob_groups` VALUES (10649,1025,253,0,128,727,90000,300000,126,128,0); -- Dhorme Khim
 REPLACE INTO `mob_groups` VALUES (10650,1173,253,60,0,840,10000,10000,121,125,0); -- Ectozoon
-REPLACE INTO `mob_groups` VALUES (10651,1212,253,900,0,869,10000,10000,121,125,0);
+REPLACE INTO `mob_groups` VALUES (10651,1212,253,900,0,869,75000,75000,121,125,0); -- Empousa
 REPLACE INTO `mob_groups` VALUES (10652,1256,253,60,0,899,10000,10000,121,125,0); -- Ermit Imp
 REPLACE INTO `mob_groups` VALUES (10653,1371,253,60,0,980,10000,9000,121,125,0);
 REPLACE INTO `mob_groups` VALUES (10654,1430,253,60,0,0,10000,10000,121,125,0);
@@ -1096,6 +1096,7 @@ REPLACE INTO `mob_groups` VALUES (10891,4594,72,0,128,4381,60000,60000,115,120,0
 REPLACE INTO `mob_groups` VALUES (13753,4705,197,7200,0,4516,65000,0,101,105,0); -- Aqrabuamelu
 
 REPLACE INTO `mob_groups` VALUES (14087,3604,255,0,128,9730,200000,180000,130,130,0); -- Shinryu
+INSERT INTO `mob_groups` VALUES (140870,3604,49,0,128,9730,200000,180000,130,130,0); -- Shinryu TEMP
 
 
 -- --------------------
