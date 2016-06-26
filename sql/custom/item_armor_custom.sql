@@ -21,7 +21,7 @@ REPLACE INTO `item_armor` VALUES (10564,'nares_trews',99,0,1589788,197,0,0,128,0
 REPLACE INTO `item_armor` VALUES (10630,'nares_clogs',99,0,1589788,197,0,0,256,0);
 REPLACE INTO `item_armor` VALUES (10911,'nares_cap',99,0,1589788,197,0,0,16,0);
 
-INSERT INTO `item_armor` VALUES (10948,'carvers_torque',70,0,4194303,0,0,0,512,0);
+REPLACE INTO `item_armor` VALUES (10948,'carvers_torque',70,0,4194303,0,0,0,512,0);
 REPLACE INTO `item_armor` VALUES (10949,'smithys_torque',70,0,4194303,0,0,0,512,0);
 INSERT INTO `item_armor` VALUES (10950,'goldsmiths_torque',70,0,4194303,0,0,0,512,0);
 INSERT INTO `item_armor` VALUES (10951,'weavers_torque',70,0,4194303,0,0,0,512,0);
