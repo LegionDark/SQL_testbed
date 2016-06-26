@@ -22,7 +22,6 @@ REPLACE INTO `item_armor` VALUES (10630,'nares_clogs',99,0,1589788,197,0,0,256,0
 REPLACE INTO `item_armor` VALUES (10911,'nares_cap',99,0,1589788,197,0,0,16,0);
 
 REPLACE INTO `item_armor` VALUES (17668,'firmament_+1',77,0,2195665,277,0,0,1,0);
-INSERT INTO `item_armor` VALUES (17913,'jug_of_saline_broth',99,0,256,0,0,0,8,0);
 
 REPLACE INTO `item_armor` VALUES (18642,'bravura',85,0,1,339,0,0,1,0);
 REPLACE INTO `item_armor` VALUES (18656,'bravura',90,0,1,339,0,0,1,0);
