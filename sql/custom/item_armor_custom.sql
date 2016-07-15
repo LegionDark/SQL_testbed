@@ -5,13 +5,13 @@
 -- The primary use of this file is for items DSP doesn't want AT ALL,
 -- namely SoA items with item level or +skill properties.
 --
--- For new entries DarkStar does not have, use "REPLACE INTO"
+-- For new entries DarkStar does not have, use "INSERT INTO"
 -- For changing entries that already exist use "REPLACE INTO"
 -- REPLACE tells MySQL to delete the old line and REPLACE the new one.
 -- Using the wrong 1 of these 2 commands will result in errors.
 -- ---------------------------------------------------------------------------
 
--- REPLACE INTO `item_armor` VALUES (itemId,'name',level,ilevel,jobs,MId,shieldSize,scriptType,slot,rslot);
+-- INSERT INTO `item_armor` VALUES (itemId,'name',level,ilevel,jobs,MId,shieldSize,scriptType,slot,rslot);
 -- New entries below this line, and sorted by itemID please.
 
 REPLACE INTO `item_armor` VALUES (10452,'rubeus_jacket',99,0,1589788,327,0,0,32,0);
