@@ -1707,7 +1707,6 @@ INSERT INTO `item_mods` VALUES (21683,355,57); -- Scourge
 INSERT INTO `item_mods` VALUES (21683,506,160); -- Extra DMG Chance 16%
 INSERT INTO `item_mods` VALUES (21683,507,250); -- Extra DMG X2.5
 INSERT INTO `item_mods` VALUES (21683,627,40); -- Scourge DMG +40%
-INSERT INTO `item_mods` VALUES (21683,165,10); -- Crit Rate
 INSERT INTO `item_mods` VALUES (21684,165,15); -- Crit Rate
 INSERT INTO `item_mods` VALUES (21684,421,65); -- Crit DMG
 INSERT INTO `item_mods` VALUES (21684,10,50); -- VIT
