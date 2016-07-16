@@ -21,10 +21,7 @@ INSERT INTO `item_mods` VALUES (11059,26,17);
 
 INSERT INTO `item_mods` VALUES (11926, 416, 15); -- USELESS COMMENT "Custom" CUSTOM WHAT?
 
-INSERT INTO `item_mods` VALUES (11927, 1, 40); -- Aegis (lv99 no afterglow) D
 INSERT INTO `item_mods` VALUES (11927, 163, -128); -- Aegis (lv99 no afterglow) -50% Magic Damage Taken
-
-REPLACE INTO `item_mods` VALUES (11958, 384, 30);
 
 INSERT INTO `item_mods` VALUES (13215, 2, 9999); -- HP to GM belt to test things
 
