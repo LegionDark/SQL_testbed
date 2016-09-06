@@ -7,7 +7,7 @@
 --
 -- For new entries DarkStar does not have, use "INSERT INTO"
 -- For changing entries that already exist use "REPLACE INTO"
--- REPLACE tells MySQL to delete the old line and REPLACE the new one.
+-- REPLACE tells MySQL to delete the old line and insert the new one.
 -- Using the wrong 1 of these 2 commands will result in errors.
 -- ---------------------------------------------------------------------------
 

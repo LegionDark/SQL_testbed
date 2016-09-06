@@ -343,14 +343,6 @@ INSERT INTO `zone_settings` VALUES (293,0,'127.0.0.1',54230,'Reisenjima_Sanctori
 -- Temp workaround for Legion battles because instancing there isn't ready, so its Dungeon for now
 REPLACE INTO `zone_settings` VALUES (183,3,'127.0.0.1',54230,'Maquette_Abdhaljs-Legion',143,143,143,143,0,0.00,145);
 
--- -------------------------------------------------------
--- This Sets zone IP on all of the above without causing
--- edit conflicts every time DarkStar changes the table.
-UPDATE zone_settings SET zoneip = '69.14.81.203';
--- Usually people just save a query and run it as needed
--- instead of storing IP in zone_settings.sql like this.
--- -------------------------------------------------------
-
 /*!40000 ALTER TABLE `zone_settings` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

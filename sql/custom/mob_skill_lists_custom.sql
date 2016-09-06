@@ -809,10 +809,6 @@ INSERT INTO `mob_skill_lists` VALUES ('Isarukitsck',4147,2819); -- Whiteout
 INSERT INTO `mob_skill_lists` VALUES ('Little_Wingman',4148,1713); -- Yawn
 INSERT INTO `mob_skill_lists` VALUES ('Little_Wingman',4148,1715); -- Beak_Lunge
 
--- INSERT INTO `mob_skill_lists` VALUES ('Bismark',4149,2606); -- Bismark_Front -- needs to be added
--- INSERT INTO `mob_skill_lists` VALUES ('Bismark',4149,2607); -- Bismark_Side_1
--- INSERT INTO `mob_skill_lists` VALUES ('Bismark',4149,2608); -- Bismark_Side_2
--- INSERT INTO `mob_skill_lists` VALUES ('Bismark',4149,2610); -- Bismark_Tail
 INSERT INTO `mob_skill_lists` VALUES ('Bismark',4149,2868); -- Echolocation
 INSERT INTO `mob_skill_lists` VALUES ('Bismark',4149,2869); -- Deep_Sea_Dirge
 INSERT INTO `mob_skill_lists` VALUES ('Bismark',4149,2870); -- Caudal_Capacitor
@@ -865,9 +861,6 @@ INSERT INTO `mob_skill_lists` VALUES ('Elder_Imp',4158,1709); -- Abrasive_Tantar
 INSERT INTO `mob_skill_lists` VALUES ('Elder_Imp',4158,1710); -- Deafening_Tantara
 INSERT INTO `mob_skill_lists` VALUES ('Elder_Imp',4158,1711); -- Frenetic_Rip
 
--- INSERT INTO `mob_skill_lists` VALUES ('Morta',4159,2525); -- Morta_Single
--- INSERT INTO `mob_skill_lists` VALUES ('Morta',4159,2526); -- Morta_Frontal
--- INSERT INTO `mob_skill_lists` VALUES ('Morta',4159,2527); -- Morta_Radial
 INSERT INTO `mob_skill_lists` VALUES ('Morta',4159,2880); -- Night_stalker
 INSERT INTO `mob_skill_lists` VALUES ('Morta',4159,2881); -- Atropine_spore
 INSERT INTO `mob_skill_lists` VALUES ('Morta',4159,2882); -- Frond_fatale
@@ -929,6 +922,20 @@ INSERT INTO `mob_skill_lists` VALUES ('Cehuetzi_Melee',4176,3136); -- Cehuetzi_M
 INSERT INTO `mob_skill_lists` VALUES ('Darrcuiln_Melee',4177,3165); -- Darrcuiln_Melee_Charge
 INSERT INTO `mob_skill_lists` VALUES ('Darrcuiln_Melee',4177,3166); -- Darrcuiln_Melee_Claw
 INSERT INTO `mob_skill_lists` VALUES ('Darrcuiln_Melee',4177,3167); -- Darrcuiln_Melee_Howl
+
+
+-- INSERT INTO `mob_skill_lists` VALUES ('Belladonna_Melee',LIST_ID_HERE,2877); -- Morta Melee
+-- INSERT INTO `mob_skill_lists` VALUES ('Belladonna_Melee',LIST_ID_HERE,2878);
+-- INSERT INTO `mob_skill_lists` VALUES ('Belladonna_Melee',LIST_ID_HERE,2879);
+
+-- INSERT INTO `mob_skill_lists` VALUES ('Pteraketos_Melee',LIST_ID_HERE,2864); -- Bismark Melee
+-- INSERT INTO `mob_skill_lists` VALUES ('Pteraketos_Melee',LIST_ID_HERE,2865);
+-- INSERT INTO `mob_skill_lists` VALUES ('Pteraketos_Melee',LIST_ID_HERE,2866);
+-- INSERT INTO `mob_skill_lists` VALUES ('Pteraketos_Melee',LIST_ID_HERE,2867);
+
+
+-- INSERT INTO `mob_skill_lists` VALUES ('Provenance_Watcher_Melee',LIST_ID_HERE,PLACEHOLDER); -- Provenance Watcher Melee
+
 -- end Melee Subs
 -- ---------------------------------------------------------------------------
 
@@ -1071,25 +1078,25 @@ INSERT INTO `mob_skill_lists` VALUES ('Ironclad_Triturator',4221,2621); -- Incin
 INSERT INTO `mob_skill_lists` VALUES ('Ironclad_Triturator',4221,2622); -- Arm_Cannon
 INSERT INTO `mob_skill_lists` VALUES ('Ironclad_Triturator',4221,2624); -- Scapula_Beam
 
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2394); -- Shinryu0_Right
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2395); -- Shinryu0_Left
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2396); -- Shinryu0_Right_2
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2397); -- Shinryu0_Left_2
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2398); -- Shinryu_Attack_Tail_1
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2399); -- Shinryu_Attack_Tail_2
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2400); -- Shinryu0_Tail_Stun
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2394); -- Shinryu0_Right
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2395); -- Shinryu0_Left
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2396); -- Shinryu0_Right_2
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2397); -- Shinryu0_Left_2
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2398); -- Shinryu_Attack_Tail_1
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2399); -- Shinryu_Attack_Tail_2
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2400); -- Shinryu0_Tail_Stun
 -- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2408); -- Cosmic_Breath
 INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2409); -- Cataclysmic_Vortex
 INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2411); -- Mighty_Guard
 INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2412); -- Atomic_ray
 INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2414); -- Protostar
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2401); -- Shinryu1_Right
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2402); -- Shinryu1_Left
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2403); -- Shinryu1_Right_2
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2404); -- Shinryu1_Left_2
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2405); -- Shinryu_Attack_Tail_1
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2406); -- Shinryu_Attack_Tail_2
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2407); -- Shinryu1_Tail_Stun
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2401); -- Shinryu1_Right
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2402); -- Shinryu1_Left
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2403); -- Shinryu1_Right_2
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2404); -- Shinryu1_Left_2
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2405); -- Shinryu_Attack_Tail_1
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2406); -- Shinryu_Attack_Tail_2
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2407); -- Shinryu1_Tail_Stun
 INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2408); -- Cosmic_Breath
 -- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2409); -- Cataclysmic_Vortex
 INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2410); -- Gyre_Charge
@@ -1352,23 +1359,23 @@ INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2415); -- Supernov
 
 
 -- New lines go BEFORE the crab till you run out of IDs.
-INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,44);   -- Head Butt (Stun, Grav, Slow, knockback)
-INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,186);  -- Bubble Shower ( )
-INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,187);  -- Bubble Curtain (Shell -50% magic damage taken)
-INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,189);  -- Scissor Guard (+100% defense boost)
-INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,192);  -- Metallic Body (25HP Stoneskin)
-INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,198);  -- Water Shield (Eva boost)
-INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,462);  -- Jump (W/Spirit Surge: Reduce targets DEF)
-INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,477);  -- Jump (W/Spirit Surge: Reduce targets TP)
-INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,513);  -- Flying Punch (Heavy DMG+Knockback, only use during Spirit Surge or Elemental Sforzo)
-INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,518);  -- Bubble Armor (Shell -50% magic damage taken)
-INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,768);  -- Warp Out (aka SuperDuperJump - Only used during depop)
-INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,808);  -- Jump (W/Spirit Surge: Hate Reset)
-INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,1181); -- Jump (AoE dmg (only triggered with Draw In)
--- INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,1637); -- Spirit Surge (It's a bird! It's a plane! No its suuuuper crab!)
-INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,1703); -- Water Bomb (AoE Silence)
-INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,2257); -- Mega Scissors (Bigger than Big Scissors o.o;)
--- INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,3009); -- Elemental Sforzo (RUN 2hr (Magic Immunity)
+INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,300);   -- Head Butt (Stun, Grav, Slow, knockback)
+INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,442);  -- Bubble Shower ( )
+INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,443);  -- Bubble Curtain (Shell -50% magic damage taken)
+INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,445);  -- Scissor Guard (+100% defense boost)
+INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,448);  -- Metallic Body (25HP Stoneskin)
+INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,454);  -- Water Shield (Eva boost)
+INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,718);  -- Jump (W/Spirit Surge: Reduce targets DEF)
+INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,733);  -- Jump (W/Spirit Surge: Reduce targets TP)
+INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,769);  -- Flying Punch (Heavy DMG+Knockback, only use during Spirit Surge or Elemental Sforzo)
+INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,774);  -- Bubble Armor (Shell -50% magic damage taken)
+INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,1024); -- Warp Out (aka SuperDuperJump - Only used during depop)
+INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,1064); -- Jump (W/Spirit Surge: Hate Reset)
+INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,1437); -- Jump (AoE dmg (only triggered with Draw In)
+-- INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,1893); -- Spirit Surge (It's a bird! It's a plane! No its suuuuper crab!)
+INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,1959); -- Water Bomb (AoE Silence)
+INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,2513); -- Mega Scissors (Bigger than Big Scissors o.o;)
+-- INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,3265); -- Elemental Sforzo (RUN 2hr (Magic Immunity)
 /* stuff below is temp disabled
 INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,190);
 INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,200);
