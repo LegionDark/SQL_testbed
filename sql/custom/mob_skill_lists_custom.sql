@@ -12,6 +12,9 @@
 -- KEEP IT IN ORDER BY ID!!
 -- INSERT INTO `mob_skill_lists` VALUES ('list_name', list_id, skill_id); -- skill name
 
+INSERT INTO `mob_skill_lists` VALUES ('Hippogryph',140,580);
+INSERT INTO `mob_skill_lists` VALUES ('Hippogryph',141,580);
+
 INSERT INTO `mob_skill_lists` VALUES ('JormungandWyrm',392,1287);
 
 INSERT INTO `mob_skill_lists` VALUES ('Lofty_Zilant',4000,2520); -- Sinister_Wing
@@ -37,7 +40,7 @@ INSERT INTO `mob_skill_lists` VALUES ('Lofty_Behemoth',4002,2391); -- Amnesic_Bl
 INSERT INTO `mob_skill_lists` VALUES ('Lofty_Elasmoth',4003,628); -- Wild_Horn
 INSERT INTO `mob_skill_lists` VALUES ('Lofty_Elasmoth',4003,629); -- Thunderbolt
 INSERT INTO `mob_skill_lists` VALUES ('Lofty_Elasmoth',4003,632); -- Flame_Armor
--- INSERT INTO `mob_skill_lists` VALUES ('Lofty_Elasmoth',4003,2330); -- Ecliptic_Meteor
+INSERT INTO `mob_skill_lists` VALUES ('Lofty_Elasmoth',4003,2586); -- Ecliptic_Meteor
 INSERT INTO `mob_skill_lists` VALUES ('Lofty_Elasmoth',4003,2391); -- Amnesic_Blast
 
 INSERT INTO `mob_skill_lists` VALUES ('Lofty_Ferromantoise',4004,804); -- Tortoise Song
@@ -311,7 +314,7 @@ INSERT INTO `mob_skill_lists` VALUES ('Valkurm_Imperator',4048,1624); -- Debilit
 -- INSERT INTO `mob_skill_lists` VALUES ('Zomok',4062,PLACEHOLDER); -- Unfinished
 -- INSERT INTO `mob_skill_lists` VALUES ('Abzu',4063,PLACEHOLDER); -- Unfinished
 
--- Beginning of incorrect block of list names...
+-- Beginning of block of incorrect list names...
 -- Correct format is: ('list_name', list_id, skill_id); -- skill name
 INSERT INTO `mob_skill_lists` VALUES ('Custom_Sandspin',4064,426); -- SS_Sandspin
 INSERT INTO `mob_skill_lists` VALUES ('Tremors',4064,427); -- SS_Tremors
@@ -386,7 +389,7 @@ INSERT INTO `mob_skill_lists` VALUES ('Thunderbolt',4076,629); -- Thunderbolt
 INSERT INTO `mob_skill_lists` VALUES ('Howl',4076,633); -- Howlacc
 INSERT INTO `mob_skill_lists` VALUES ('Custom_Accursed_Armor',4076,2390); -- Accursed_Armor
 INSERT INTO `mob_skill_lists` VALUES ('Custom_Amnesic_Blast',4076,2391); -- Amnesic_Blast
--- INSERT INTO `mob_skill_lists` VALUES ('Custom_Ecliptic_Meteor',4076,2586); -- Ecliptic_Meteor
+INSERT INTO `mob_skill_lists` VALUES ('Custom_Ecliptic_Meteor',4076,2586); -- Ecliptic_Meteor
 
 INSERT INTO `mob_skill_lists` VALUES ('Bloodrake',4077,2106); -- Bloodrake
 INSERT INTO `mob_skill_lists` VALUES ('Custom_Nosferatus_Kiss',4077,2108); -- Nosferatus_kiss
@@ -1078,30 +1081,41 @@ INSERT INTO `mob_skill_lists` VALUES ('Ironclad_Triturator',4221,2621); -- Incin
 INSERT INTO `mob_skill_lists` VALUES ('Ironclad_Triturator',4221,2622); -- Arm_Cannon
 INSERT INTO `mob_skill_lists` VALUES ('Ironclad_Triturator',4221,2624); -- Scapula_Beam
 
--- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2394); -- Shinryu0_Right
--- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2395); -- Shinryu0_Left
--- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2396); -- Shinryu0_Right_2
--- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2397); -- Shinryu0_Left_2
--- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2398); -- Shinryu_Attack_Tail_1
--- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2399); -- Shinryu_Attack_Tail_2
--- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2400); -- Shinryu0_Tail_Stun
--- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2408); -- Cosmic_Breath
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2409); -- Cataclysmic_Vortex
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2411); -- Mighty_Guard
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2412); -- Atomic_ray
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4222,2414); -- Protostar
--- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2401); -- Shinryu1_Right
--- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2402); -- Shinryu1_Left
--- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2403); -- Shinryu1_Right_2
--- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2404); -- Shinryu1_Left_2
--- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2405); -- Shinryu_Attack_Tail_1
--- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2406); -- Shinryu_Attack_Tail_2
--- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2407); -- Shinryu1_Tail_Stun
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2408); -- Cosmic_Breath
--- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2409); -- Cataclysmic_Vortex
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2410); -- Gyre_Charge
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2413); -- Darkmatter
-INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4222,2415); -- Supernova
+-- Begin Shinryu_Temp!
+INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Temp',4222,2665); -- Cataclysmic_Vortex
+INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Temp',4222,2667); -- Mighty_Guard
+INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Temp',4222,2668); -- Atomic_ray
+INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Temp',4222,2670); -- Protostar
+INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Temp',4222,2664); -- Cosmic_Breath
+INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Temp',4222,2666); -- Gyre_Charge
+INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Temp',4222,2669); -- Darkmatter
+INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Temp',4222,2671); -- Supernova
+-- End Shinryu_Temp!
+-- Shinryu needs more work to animate everything properly.
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out_Melee',4222,2650); -- Shinryu0_Right
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out_Melee',4222,2651); -- Shinryu0_Left
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out_Melee',4222,2652); -- Shinryu0_Right_2
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out_Melee',4222,2653); -- Shinryu0_Left_2
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out_Melee',4222,2654); -- Shinryu_Attack_Tail_1
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out_Melee',4222,2655); -- Shinryu_Attack_Tail_2
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out_Melee',4222,2656); -- Shinryu0_Tail_Stun
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out_Melee',4222,2664); -- Cosmic_Breath
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4223,2665); -- Cataclysmic_Vortex
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4223,2667); -- Mighty_Guard
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4223,2668); -- Atomic_ray
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_Out',4223,2670); -- Protostar
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In_Melee',4224,2657); -- Shinryu1_Right
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In_Melee',4224,2658); -- Shinryu1_Left
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In_Melee',4224,2659); -- Shinryu1_Right_2
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In_Melee',4224,2660); -- Shinryu1_Left_2
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In_Melee',4224,2661); -- Shinryu_Attack_Tail_1
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In_Melee',4224,2662); -- Shinryu_Attack_Tail_2
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In_Melee',4224,2663); -- Shinryu1_Tail_Stun
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4225,2664); -- Cosmic_Breath
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4225,2665); -- Cataclysmic_Vortex
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4225,2666); -- Gyre_Charge
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4225,2669); -- Darkmatter
+-- INSERT INTO `mob_skill_lists` VALUES ('Shinryu_Wings_In',4225,2671); -- Supernova
 
 -- INSERT INTO `mob_skill_lists` VALUES ('Stroper Chyme',LIST,SKILL); -- Skill Name
 -- 175,1587,175,'Fluid_Spread',1,10.0,2000,1500,4,0,0,0);
@@ -1377,45 +1391,39 @@ INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,1959); -- Water Bo
 INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,2513); -- Mega Scissors (Bigger than Big Scissors o.o;)
 -- INSERT INTO `mob_skill_lists` VALUES ('The Jumping Crab',9665,3265); -- Elemental Sforzo (RUN 2hr (Magic Immunity)
 /* stuff below is temp disabled
-INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,190);
-INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,200);
-INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,249);
-INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,332);
-INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,943);
-INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,1424);
--- INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,437);
--- INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,439);
--- INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,475);
-INSERT INTO `mob_skill_lists` VALUES ('SlenderMan'9666,72);
-INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,253);
-INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,567);
-INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,568);
-INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,569);
-INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,570);
-INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,571);
-INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,572);
-INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,573);
--- INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,432);
--- INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,439);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,1849);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,574);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,729);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,1130);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,1123);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,1252);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,1885);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,1886);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,1888);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,1891);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,2078);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,2079);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,2114);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,2434);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,2435);
--- INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,435);
--- INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,436);
--- INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,438);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,2102);
-INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,1231);
+INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,241); -- Netherspikes
+INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,249); -- Netherspikes
+INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,255); -- Dimensional Death
+INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,456); -- Tentacle
+INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,332); -- Death Trap
+INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,943); -- Gate_of_Tartarus
+INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,1424); -- Predatory Glare
+INSERT INTO `mob_skill_lists` VALUES ('SlenderMan',9666,1002); -- Summon Proxies
+INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,243); -- Aegis_Schism
+INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,251); -- Aegis_Schism
+INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,823); -- Fire_Blade
+INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,824); -- Frost_Blade
+INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,825); -- Wind_Blade2
+INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,826); -- Earth_Blade
+INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,827); -- Lightning_Blade
+INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,828); -- Water_Blade
+INSERT INTO `mob_skill_lists` VALUES ('Mars',9760,829); -- Great_Wheel
+INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,830); -- Light_Blade (Grants/Restores EnLight)
+INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,985); -- Stellar_burst
+INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,1386); -- Medusa_Javelin
+INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,1379); -- Auroral_Wind (Grants/Restores Light spikes)
+INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,1508); -- Luminous_Lance (Grants/Restores EnLight)
+INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,2141); -- Radiant_sacrament (Grants/Restores Light spikes)
+INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,2142); -- Mega_holy
+INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,2144); -- Divine_spear (Grants/Restores EnLight)
+INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,2147); -- Divine_Jugement
+INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,2334); -- Wrath_of_zeus (Grants/Restores Shock spikes and EnThunder)
+INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,2335); -- Lightning_spear
+INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,2370); -- Grace_of_Hera (Grants/Restores Light spikes)
+INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,2690); -- Dark_Moon
+INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,2691); -- Dark_Sun
+-- INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,2358); -- Tabula_Rasa
+-- INSERT INTO `mob_skill_lists` VALUES ('Minerva',9777,1487); -- Ambrosia
+INSERT INTO `mob_skill_lists` VALUES ('Minerva_Melee',9778,2105); -- Melee_Special
  */
 -- Thinking of placing a new entry right here? DO NOT. Scroll your butt up past The Jumping Crab!
