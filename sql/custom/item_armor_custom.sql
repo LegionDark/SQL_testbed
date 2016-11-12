@@ -56,6 +56,7 @@ REPLACE INTO `item_armor` VALUES (20950,'terebrokath',99,117,8192,210,0,0,1,0);
 REPLACE INTO `item_armor` VALUES (20951,'terebrokath_+1',99,118,8192,210,0,0,1,0);
 REPLACE INTO `item_armor` VALUES (20984,'kujaku',99,119,4096,367,0,0,3,0);
 REPLACE INTO `item_armor` VALUES (20985,'kujaku_+1',99,119,4096,367,0,0,3,0);
+REPLACE INTO `item_armor` VALUES (20986,'achiuchikapu',99,119,4096,727,0,0,3,0);
 REPLACE INTO `item_armor` VALUES (20998,'kaitsuburi',99,117,4096,394,0,0,3,0);
 
 REPLACE INTO `item_armor` VALUES (21032,'kunitsuna',99,119,2048,154,0,0,1,0);
@@ -68,6 +69,7 @@ REPLACE INTO `item_armor` VALUES (21094,'blurred_rod_+1',99,119,1622095,224,0,0,
 REPLACE INTO `item_armor` VALUES (21119,'eminent_wand',99,117,1622044,230,0,0,3,0);
 REPLACE INTO `item_armor` VALUES (21157,'blurred_staff',99,119,1598031,462,0,0,1,0);
 REPLACE INTO `item_armor` VALUES (21158,'blurred_staff_+1',99,119,1598031,462,0,0,1,0);
+REPLACE INTO `item_armor` VALUES (21161,'mindmelter',99,119,1572872,726,0,0,1,0);
 REPLACE INTO `item_armor` VALUES (21182,'eminent_staff',99,117,1590047,341,0,0,1,0);
 REPLACE INTO `item_armor` VALUES (21183,'eminent_pole',99,117,16384,341,0,0,1,0);
 REPLACE INTO `item_armor` VALUES (21192,'voay_staff',99,107,1598031,625,0,0,1,0);
