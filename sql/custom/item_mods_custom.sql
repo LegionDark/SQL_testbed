@@ -222,7 +222,7 @@ INSERT INTO `item_mods` VALUES (20601,68,22); -- 22 Eva
 INSERT INTO `item_mods` VALUES (20602,25,20); -- Blurred Knife +1 - 20 Acc
 INSERT INTO `item_mods` VALUES (20602,68,22); -- 22 Eva
 
---Jugo Kukri +1
+-- Jugo Kukri +1
 INSERT INTO `item_mods` VALUES (20609,11,15); -- LEGION CUSTOM AGI
 INSERT INTO `item_mods` VALUES (20609,30,15); -- 21 Macc
 INSERT INTO `item_mods` VALUES (20609,68,22); -- 22 Evasion
