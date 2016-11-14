@@ -90,7 +90,6 @@ REPLACE INTO `item_armor` VALUES (21281,'eminent_gun',99,117,1024,58,0,0,4,0);
 REPLACE INTO `item_armor` VALUES (21289,'donderbuss',99,117,66560,60,0,0,4,0);
 REPLACE INTO `item_armor` VALUES (21290,'donderbuss_+1',99,118,66560,60,0,0,4,0);
 REPLACE INTO `item_armor` VALUES (21345,'focal_orb',99,0,2473971,0,0,0,8,0);
-REPLACE INTO `item_armor` VALUES (21350,'wingcutter_+1',99,119,4128,24,0,0,8,0);
 REPLACE INTO `item_armor` VALUES (21353,'happo_shuriken',99,117,4096,22,0,0,8,2);
 REPLACE INTO `item_armor` VALUES (21354,'happo_shuriken_+1',99,118,4096,22,0,0,8,2);
 REPLACE INTO `item_armor` VALUES (21358,'plumose_sachet',99,0,4194303,0,0,0,8,0);
