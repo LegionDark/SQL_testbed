@@ -58,6 +58,14 @@ INSERT INTO `item_mods_pet` VALUES (19827, 23, 80 ,0); -- Pet: Attack +80
 INSERT INTO `item_mods_pet` VALUES (19956, 23, 80 ,0); -- Pet: Attack +80
 
 -- -------------------------------------------------------
+--  Kenkonken *Mythic* - LVL 119-2 Afterglow
+-- -------------------------------------------------------
+INSERT INTO `item_mods_pet` VALUES (20485, 23, 80 ,3); -- Pet: Attack +80
+INSERT INTO `item_mods_pet` VALUES (20485, 25, 80 ,3); -- Pet: Accuracy +80
+INSERT INTO `item_mods_pet` VALUES (20485, 288, 15 ,3); -- +15% Double Atk
+INSERT INTO `item_mods_pet` VALUES (20485, 302, 10 ,3); -- +10% Triple Atk
+
+-- -------------------------------------------------------
 --  Aymur *Mythic* - LVL 99-3 - ignored the Aftermath acc, atk occ.attacks twice
 -- -------------------------------------------------------
 INSERT INTO `item_mods_pet` VALUES (20792, 23, 80 ,0); -- Pet: Attack +80
