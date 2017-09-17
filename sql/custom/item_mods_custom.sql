@@ -591,12 +591,6 @@ INSERT INTO `item_mods` VALUES (21354,23,6);
 INSERT INTO `item_mods` VALUES (21354,25,6);
 INSERT INTO `item_mods` VALUES (21354,26,11);
 
-INSERT INTO `item_mods` VALUES (21378,165,1);
-INSERT INTO `item_mods` VALUES (21378,421,5);
-
-INSERT INTO `item_mods` VALUES (21379,165,2);
-INSERT INTO `item_mods` VALUES (21379,421,6);
-
 -- Marsyas
 INSERT INTO `item_mods` VALUES (21398,454,50); -- Song Duration
 
